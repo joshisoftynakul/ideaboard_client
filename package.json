@@ -2,7 +2,7 @@
   "name": "ideaboard_client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://ideaboardapi.herokuapp.com/api/v1/ideas",
+  "proxy": "https://crossorigin.me/https://ideaboardapi.herokuapp.com/api/v1/ideas",
   "dependencies": {
     "axios": "^0.17.1",
     "react": "^16.1.1",

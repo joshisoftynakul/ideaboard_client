@@ -18,7 +18,7 @@ class IdeaForm extends Component {
   handleBlur = () => {
     const idea = {title: this.state.title, body: this.state.body }
     axios.put(
-      `https://ideaboardapi.herokuapp.com/api/v1/ideas/${this.props.idea.id}`,
+      `https://crossorigin.me/https://ideaboardapi.herokuapp.com/api/v1/ideas/${this.props.idea.id}`,
       {idea: idea}
       )
     .then(response => {
