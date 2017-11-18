@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body{
+  background-color: #272727;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+.App-header {
+  text-align: center;
+  height: 150px;
+  padding: 20px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 11px;
+  padding-bottom: 20px;
+}
+.coloring:hover{
+  color: #c2193f;
+}
+
+.App-intro {
+  font-size: large;
+}
+ 
+.tile {
+  height: 200px;
+  width: 200px;
+  margin: 30px;
+  background: #3a3a3a;
+  float: left;
+  font-size: 11px;
+  text-align: left;
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  transition: all 0.1s ease;
+}
+
+.tile h2{
+  padding-left: 15px;
+  font-size: 1.6em;
+}
+.tile p{
+  padding-left: 15px;
+  padding-right: 20px;
+  font-size: 1.3em;
+}
+.tile:hover{
+  border-top: 2px solid #c2193f;
+}
+#max{
+  width: 100%;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.newIdeaButton {
+  font-family: 'Oswald', sans-serif;
+  background: #c2193f;
+  color: white;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding:15px;
+  text-align: center;
+  transition: all 0.3s ease;
+
+}
+.newIdeaButton:hover{
+  background-color: #e53935;
+}
+
+.input {
+  border: 0;
+  background: none;
+  outline: none;
+  margin-top:12px;
+  width: 140px;
+  font-size: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-left: 15px;
+  color: #fff;
+}
+
+.input2{
+  border: 0;
+  background: none;
+  outline: none;
+  margin-top:12px;
+  width: 140px;
+  font-size: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-left: 15px;
+  color: #fff;
+}
+
+.input:focus {
+  color: #fff;
+  padding-left: 15px;
+  border-bottom: solid 1px #c2193f;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.input2:focus {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+}
+
+textarea {
+  resize: none;
+  height: 90px;
+  font-size: 11px;
+}
+
+.deleteButton {
+  visibility: hidden;
+  float: right;
+  margin: 0px 7px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #c2193f;
+}
+
+.tile:hover .deleteButton {
+  visibility: visible;
+}
